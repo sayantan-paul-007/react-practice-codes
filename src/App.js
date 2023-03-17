@@ -15,7 +15,7 @@ function App() {
      <Practice4 num='121'>
       This is a paragraph of the Practice test files
      </Practice4>
-     <Practice5 num= '45' />
+     <Practice5 num= '955' />
      <Practice6 />
     </div>
   );
