@@ -5,6 +5,7 @@ import Practice3 from './pages/Practice3';
 import Practice4 from './pages/Practice4';
 import Practice5 from './pages/Practice5';
 import Practice6 from './pages/Practice6';
+import Practice7 from './pages/Practice7';
 function App() {
   // In order to see each components individually, uncomment the desired one to view in particular 
   return (
@@ -17,6 +18,7 @@ function App() {
      </Practice4>
      <Practice5 num= '9555' />
      <Practice6 />
+     <Practice7 />
     </div>
   );
 }
