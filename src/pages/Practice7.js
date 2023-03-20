@@ -23,6 +23,11 @@ mulCount(){
         count:this.state.count * this.state.count
     })
 }
+divCount(){
+    this.setState({
+        count:this.state.count / this.state.count
+    })
+}
   render() {
     return (
       <div>
@@ -30,6 +35,7 @@ mulCount(){
         <button onClick={()=>this.incCount()}>+</button>
         <button onClick={()=>this.decCount()}>-</button>
         <button onClick={()=>this.mulCount()}>x</button>
+        <button onClick={()=>this.divCount()}>/</button>
 
       </div>
     )
