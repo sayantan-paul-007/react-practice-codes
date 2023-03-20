@@ -29,6 +29,7 @@ mulCount(){
         <p>{this.state.count}</p>
         <button onClick={()=>this.incCount()}>+</button>
         <button onClick={()=>this.decCount()}>-</button>
+        <button onClick={()=>this.mulCount()}>x</button>
 
       </div>
     )
