@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+// Counter using class Component
 export class Practice7 extends Component {
     constructor(){
         super()
