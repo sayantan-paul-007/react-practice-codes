@@ -21,6 +21,7 @@ class Practice11 extends Component {
       <>
       <h1>{this.state.nameinfo}</h1>
       <button onClick={this.newNameClick}>Click</button>
+      {/* The difference between Practice 7 and Practice 11 is that in Practice 7, the onClick method directly runs the function and there are parenthesis for the method. In Practice 11, the event handler is passed as a variable for method and the variable is defined within the constructor and referenced the state using 'bind' keyword  */}
       </>
     )
   }
