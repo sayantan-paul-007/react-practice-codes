@@ -1,7 +1,6 @@
-.hello{
-    font-size: 30px;
-    color: blueviolet;
+.primary{
+    color: orange;
 }
-.new2{
-    text-decoration: underline;
+.font-xl{
+    font-size: 72px;
 }
